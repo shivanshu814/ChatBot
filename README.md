@@ -2,6 +2,9 @@
 
 A simple Flask Chatbot application that utilizes a trained model for natural language processing.
 
+![image](https://github.com/shivanshu814/ChatBot/assets/97324405/feebb742-acc5-4a69-91e0-7ec3caf4b4a3)
+
+
 ## Features
 
 - Chatbot Interface: Users can interact with the chatbot through a web-based chat interface.
