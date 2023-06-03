@@ -36,5 +36,3 @@ The application requires a trained model (`model.h5`), data files (`texts.pkl` a
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions, please open an issue or create a pull request.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
