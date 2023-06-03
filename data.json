@@ -1,0 +1,339 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": [
+				"Hi there",
+				"How are you",
+				"Is anyone there?",
+				"Hey",
+				"Hola",
+				"Hello",
+				"Good day"
+			],
+			"responses": [
+				"Hello, thanks for asking",
+				"Good to see you again",
+				"Hi there, how can I help?"
+			],
+			"context": [""]
+		},
+		{
+			"tag": "General",
+			"patterns": ["What is your name?", "Who Made You", "Is anyone there?"],
+			"responses": [
+				"My name is PoweredAI",
+				"Shivanshu Made Me",
+				"Hi there, how can I help?"
+			],
+			"context": [""]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"Bye",
+				"See you later",
+				"Goodbye",
+				"Nice chatting to you, bye",
+				"Till next time"
+			],
+			"responses": [
+				"See you!",
+				"Have a nice day",
+				"Bye! Come back again soon."
+			],
+			"context": [""]
+		},
+		{
+			"tag": "thanks",
+			"patterns": [
+				"Thanks",
+				"Thank you",
+				"That's helpful",
+				"Awesome, thanks",
+				"Thanks for helping me"
+			],
+			"responses": ["Happy to help!", "Any time!", "My pleasure"],
+			"context": [""]
+		},
+		{
+			"tag": "noanswer",
+			"patterns": [],
+			"responses": [
+				"Sorry, can't understand you",
+				"Please give me more info",
+				"Not sure I understand"
+			],
+			"context": [""]
+		},
+		{
+			"tag": "options",
+			"patterns": [
+				"How you could help me?",
+				"What you can do?",
+				"What help you provide?",
+				"How you can be helpful?",
+				"What support is offered"
+			],
+			"responses": [
+				"I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies",
+				"Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"
+			],
+			"context": [""]
+		},
+		{
+			"tag": "developer",
+			"patterns": [
+				"How can I become a developer?",
+				"What programming languages should I learn?",
+				"How do I start learning web development?",
+				"Can you recommend any coding resources?",
+				"What skills do I need to become a developer?",
+				"What are the best web development frameworks?",
+				"What is front-end development?",
+				"What is back-end development?",
+				"How do I become a full-stack developer?",
+				"What is responsive web design?",
+				"What is the difference between HTML and CSS?",
+				"How can I improve my web development skills?",
+				"What are some popular JavaScript libraries?",
+				"What is API integration in web development?",
+				"How can I optimize website performance?",
+				"What is the role of a UI/UX designer in web development?",
+				"What are some best practices for web development?",
+				"How can I secure my web applications?",
+				"What is cross-browser compatibility in web development?",
+				"What is the importance of mobile-first design in web development?",
+				"What is the role of a front-end developer?",
+				"What is the role of a back-end developer?",
+				"How can I debug and troubleshoot web applications?",
+				"What is the difference between a website and a web application?",
+				"How can I make my website more accessible?",
+				"What is the difference between HTTP and HTTPS?",
+				"How can I handle user authentication in web applications?",
+				"What are the benefits of using a content management system (CMS)?",
+				"What is the importance of clean code in web development?",
+				"What are some popular front-end frameworks?",
+				"What is the role of a database in web development?",
+				"How can I deploy a web application?",
+				"What is version control and why is it important for web development?",
+				"How can I optimize website loading speed?",
+				"What is the role of JavaScript in web development?",
+				"What are some popular back-end programming languages?",
+				"How can I test and debug my web applications?",
+				"What is the role of a project manager in web development?",
+				"How can I handle form submissions in web applications?",
+				"What is the difference between a static website and a dynamic website?",
+				"What is the role of web servers in web development?",
+				"How can I implement responsive images in web design?",
+				"What is the importance of SEO in web development?",
+				"What is the role of caching in web development?",
+				"How can I handle user input securely in web applications?",
+				"What is the role of APIs in web development?",
+				"What are some popular CSS frameworks?",
+				"How can I optimize website accessibility?",
+				"What is the role of cookies in web development?",
+				"What is the importance of user experience in web design?",
+				"How can I handle file uploads in web applications?",
+				"What is the role of web analytics in web development?",
+				"What are some common security vulnerabilities in web applications?"
+			],
+			"responses": [
+				"Becoming a developer requires learning programming languages such as JavaScript, Python, or Ruby.",
+				"To start learning web development, you can begin with HTML, CSS, and JavaScript.",
+				"There are many online coding resources available, such as freeCodeCamp, Codecademy, and Udemy.",
+				"In addition to programming languages, it is important to develop problem-solving and critical thinking skills.",
+				"Keep practicing coding and building projects to enhance your skills.",
+				"Some popular web development frameworks include React, Angular, and Vue.js.",
+				"Front-end development involves building user interfaces using HTML, CSS, and JavaScript.",
+				"Back-end development involves server-side programming and database management.",
+				"Becoming a full-stack developer means having proficiency in both front-end and back-end development.",
+				"Responsive web design ensures that websites adapt to different screen sizes and devices.",
+				"HTML is a markup language used for structuring web content, while CSS is used for styling and presentation.",
+				"You can improve your web development skills by working on real-world projects and seeking feedback from others.",
+				"Some popular JavaScript libraries include jQuery, React, and Vue.js.",
+				"API integration involves connecting web applications with external services or platforms.",
+				"Website performance can be optimized by optimizing code, caching, and using content delivery networks (CDNs).",
+				"UI/UX designers focus on creating intuitive and user-friendly interfaces for web applications.",
+				"Best practices for web development include writing clean and maintainable code, using version control, and testing thoroughly.",
+				"Web application security involves implementing measures such as secure authentication, input validation, and secure communication.",
+				"Cross-browser compatibility ensures that websites function correctly across different web browsers.",
+				"Mobile-first design emphasizes designing for mobile devices first and then scaling up for larger screens.",
+				"Front-end developers focus on building the user-facing parts of a website or web application.",
+				"Back-end developers focus on server-side logic and database management.",
+				"Debugging and troubleshooting skills are essential for identifying and fixing issues in web applications.",
+				"A website primarily consists of static content, while a web application is interactive and dynamic.",
+				"Making your website accessible involves following web accessibility guidelines and ensuring equal access for all users.",
+				"HTTP is the standard protocol for transferring data over the web, while HTTPS adds encryption for secure communication.",
+				"User authentication in web applications can be implemented using techniques such as username/passwords, tokens, or OAuth.",
+				"Using a CMS simplifies content management and allows non-technical users to update website content.",
+				"Writing clean and maintainable code improves the readability, scalability, and maintainability of web applications.",
+				"Some popular front-end frameworks include Bootstrap, Foundation, and Bulma.",
+				"Databases store and manage the data used by web applications, allowing for data retrieval, storage, and manipulation.",
+				"Deploying a web application involves making it accessible on a web server for users to access over the internet.",
+				"Version control allows you to track changes, collaborate with others, and revert to previous versions of your code.",
+				"Website loading speed can be optimized by minimizing file sizes, optimizing images, and using caching techniques.",
+				"JavaScript is a programming language that allows you to add interactivity and dynamic behavior to web pages.",
+				"Some popular back-end programming languages include Python, PHP, and Ruby.",
+				"Testing and debugging web applications helps identify and fix issues, ensuring a smooth user experience.",
+				"Project managers oversee the planning, execution, and delivery of web development projects.",
+				"Handling form submissions involves validating user input and processing the submitted data on the server.",
+				"Static websites display the same content to all users, while dynamic websites generate content based on user interactions or data.",
+				"Web servers host and serve web applications, handling requests and delivering responses to users.",
+				"Implementing responsive images ensures that images adjust to different screen sizes and resolutions.",
+				"Search engine optimization (SEO) techniques improve the visibility and ranking of websites in search engine results.",
+				"Caching involves storing frequently accessed data to improve performance and reduce server load.",
+				"Handling user input securely involves validating and sanitizing input, preventing SQL injection and cross-site scripting (XSS) attacks.",
+				"APIs (Application Programming Interfaces) allow different software systems to communicate and interact with each other.",
+				"Some popular CSS frameworks include Bootstrap, Foundation, and Tailwind CSS.",
+				"Optimizing website accessibility involves following WCAG guidelines, providing alternative text, and using semantic HTML.",
+				"Cookies are small data files stored on a user's computer that track user behavior and enable personalized experiences on websites.",
+				"User experience (UX) focuses on creating a positive and intuitive interaction between users and a website or application.",
+				"Handling file uploads in web applications involves validating file types, size limitations, and storing the uploaded files securely.",
+				"Web analytics involves collecting and analyzing data to understand user behavior and improve website performance.",
+				"Common security vulnerabilities in web applications include SQL injection, cross-site scripting (XSS), and CSRF attacks."
+			],
+			"context": ""
+		},
+		{
+			"tag": "web_design",
+			"patterns": [
+				"What is the importance of good web design?",
+				"How can I create visually appealing websites?",
+				"What are the principles of effective web design?",
+				"What is the role of color in web design?",
+				"How can I improve the user interface of my website?",
+				"What is the impact of typography in web design?",
+				"How can I create a consistent design across web pages?",
+				"What are the latest trends in web design?",
+				"How does user experience influence web design?",
+				"What tools are commonly used for web design?"
+			],
+			"responses": [
+				"Good web design is important for creating a positive user experience and establishing credibility.",
+				"To create visually appealing websites, consider factors like layout, color scheme, and imagery.",
+				"Principles of effective web design include simplicity, consistency, and clear communication.",
+				"Color plays a crucial role in web design, evoking emotions and helping with visual hierarchy.",
+				"Improving the user interface involves focusing on navigation, interaction, and overall usability.",
+				"Typography affects the readability and visual appeal of a website, so choose fonts wisely.",
+				"Consistent design elements such as colors, fonts, and layouts help create a cohesive user experience.",
+				"Some current trends in web design include minimalist design, microinteractions, and dark mode.",
+				"User experience (UX) encompasses the overall satisfaction and usability of a website or application.",
+				"Commonly used web design tools include Adobe XD, Sketch, Figma, and InVision."
+			],
+			"context": ""
+		},
+		{
+			"tag": "software_development",
+			"patterns": [
+				"What is software development?",
+				"How do I become a software developer?",
+				"What programming languages are commonly used in software development?",
+				"What are the different phases of the software development life cycle?",
+				"What is Agile software development?",
+				"What is version control?",
+				"How can I improve my coding skills?",
+				"What is the importance of testing in software development?",
+				"What are some common software development methodologies?",
+				"What is the role of documentation in software development?"
+			],
+			"responses": [
+				"Software development is the process of designing, coding, testing, and maintaining computer software.",
+				"To become a software developer, it is recommended to learn programming languages like Java, Python, or C#.",
+				"Commonly used programming languages in software development include Java, Python, C++, and JavaScript.",
+				"The software development life cycle typically includes phases like requirements gathering, design, coding, testing, and deployment.",
+				"Agile software development is an iterative and incremental approach that emphasizes flexibility and customer collaboration.",
+				"Version control is a system that allows developers to track changes in code and collaborate effectively.",
+				"To improve coding skills, practice regularly, participate in coding challenges, and study code written by experienced developers.",
+				"Testing is crucial in software development to ensure the quality, reliability, and functionality of the software.",
+				"Common software development methodologies include Waterfall, Scrum, Kanban, and Lean.",
+				"Documentation plays a vital role in software development by providing information on usage, functionality, and code structure."
+			],
+			"context": ""
+		},
+		{
+			"tag": "adverse_drug",
+			"patterns": [
+				"How to check Adverse drug reaction?",
+				"Open adverse drugs module",
+				"Give me a list of drugs causing adverse behavior",
+				"List all drugs suitable for patient with adverse reaction",
+				"Which drugs dont have adverse reaction?"
+			],
+			"responses": ["Navigating to Adverse drug reaction module"],
+			"context": [""]
+		},
+		{
+			"tag": "blood_pressure",
+			"patterns": [
+				"Open blood pressure module",
+				"Task related to blood pressure",
+				"Blood pressure data entry",
+				"I want to log blood pressure results",
+				"Blood pressure data management"
+			],
+			"responses": ["Navigating to Blood Pressure module"],
+			"context": [""]
+		},
+		{
+			"tag": "blood_pressure_search",
+			"patterns": [
+				"I want to search for blood pressure result history",
+				"Blood pressure for patient",
+				"Load patient blood pressure result",
+				"Show blood pressure results for patient",
+				"Find blood pressure results by ID"
+			],
+			"responses": ["Please provide Patient ID", "Patient ID?"],
+			"context": ["search_blood_pressure_by_patient_id"]
+		},
+		{
+			"tag": "search_blood_pressure_by_patient_id",
+			"patterns": [],
+			"responses": ["Loading Blood pressure result for Patient"],
+			"context": [""]
+		},
+		{
+			"tag": "pharmacy_search",
+			"patterns": [
+				"Find me a pharmacy",
+				"Find pharmacy",
+				"List of pharmacies nearby",
+				"Locate pharmacy",
+				"Search pharmacy"
+			],
+			"responses": ["Please provide pharmacy name"],
+			"context": ["search_pharmacy_by_name"]
+		},
+		{
+			"tag": "search_pharmacy_by_name",
+			"patterns": [],
+			"responses": ["Loading pharmacy details"],
+			"context": [""]
+		},
+		{
+			"tag": "hospital_search",
+			"patterns": [
+				"Lookup for hospital",
+				"Searching for hospital to transfer patient",
+				"I want to search hospital data",
+				"Hospital lookup for patient",
+				"Looking up hospital details"
+			],
+			"responses": ["Please provide hospital name or location"],
+			"context": ["search_hospital_by_params"]
+		},
+		{
+			"tag": "search_hospital_by_params",
+			"patterns": [],
+			"responses": ["Please provide hospital type"],
+			"context": ["search_hospital_by_type"]
+		},
+		{
+			"tag": "search_hospital_by_type",
+			"patterns": [],
+			"responses": ["Loading hospital details"],
+			"context": [""]
+		}
+	]
+}
